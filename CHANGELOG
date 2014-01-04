@@ -4,3 +4,5 @@ Package hydra added.
 
 4-Jan-14: Added Packages kismet/kismet-plugins-restricted
 Added beleth package
+Added i386 packages to repository
+Added working list of packages available through debian repos in docs/

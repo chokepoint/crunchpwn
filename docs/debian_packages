@@ -1,0 +1,12 @@
+These packages already have standard debian packages
+
+dsniff
+hping3
+john
+john-data
+macchanger
+nmap
+python-scapy
+tcpdump
+tcpreplay
+wireshark

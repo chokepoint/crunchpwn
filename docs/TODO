@@ -6,7 +6,6 @@ Custom Menus
 i386 package build
 
 aircrack-ng
-beleth
 binwalk
 bluediving
 bluelog
@@ -16,7 +15,6 @@ dnsrecon
 dripper
 exploitdb
 iaxflood
-kismet
 metasploit
 thc-ssl
 unicornscan
