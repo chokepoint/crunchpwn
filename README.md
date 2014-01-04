@@ -12,7 +12,7 @@ Add Key
 
 /etc/apt/sources.lst:
 ---------------------
-    \# Crunchpwn
+    ## Crunchpwn
     deb http://repo.crunchpwn.org/ purson main
 
  
