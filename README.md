@@ -15,4 +15,6 @@ Add Key
     ## Crunchpwn
     deb http://repo.crunchpwn.org/ purson main
 
- 
+Update Sources
+--------------
+    sudo apt-get update 
