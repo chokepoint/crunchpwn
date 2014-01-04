@@ -1,12 +1,22 @@
 These packages already have standard debian packages
 
+arping
+bokken
 dsniff
+etherape
 hping3
+iputils-arping
 john
 john-data
 macchanger
+mtr
 nmap
+ntop
+p0f
+prads
+pyew
 python-scapy
+radare2
 tcpdump
 tcpreplay
 wireshark
