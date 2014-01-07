@@ -12,9 +12,10 @@ Add Key
 
 /etc/apt/sources.lst:
 ---------------------
-    ## Crunchpwn
-    deb http://repo.crunchpwn.org/ purson main
+    $ echo '## Crunchpwn
+    deb http://repo.crunchpwn.org/ purson main' >> /etc/apt/sources.lst
 
 Update Sources
 --------------
     sudo apt-get update 
+    sudo apt-get install <package>
