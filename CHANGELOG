@@ -19,4 +19,6 @@ Added exploit-db package
 
 8-Jan-14: Added thc-ssl-dos
 Added unicornscan
-
+Added bluediving
+Started crunchpwn install package
+Added debian repositories

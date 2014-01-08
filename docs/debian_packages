@@ -1,22 +1,32 @@
 These packages already have standard debian packages
 
+apparmor
+apparmor-profiles
 arping
 bokken
+chkrootkit
 dsniff
 etherape
+gradm2
 hping3
 ike-scan
+ipsec-tools
 iputils-arping
 john
 john-data
+linux-patch-grsecurity2
 macchanger
 medusa
 mtr
+netsed
+ngrep
 nikto
 nmap
+nmapsi4
 ntop
 ophcrack
 ophcrack-cli
+paxctl
 p0f
 prads
 pyew
@@ -25,8 +35,10 @@ radare2
 socat
 tcpdump
 tcpreplay
+tcpspy
 tor
 w3af
 wapiti
 wireshark
+xprobe
 zzuf
