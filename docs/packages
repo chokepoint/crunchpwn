@@ -11,7 +11,8 @@ kismet-plugins-restricted_2013.03.1
 lans.py
 medusa_2.1.1
 ncrack_0.4ALPHA
-sqlmap_0.9_3401
+sqlmap_0.9
 sslnuke_1.0
 thc-ssl-dos_1.4
-unicorn-scan_0.4.7
+unicornscan_0.4.7
+wpscan_0.9
