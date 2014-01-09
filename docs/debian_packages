@@ -45,6 +45,7 @@ prads
 pyew
 python-scapy
 radare2
+reaver
 rkhunter
 screen
 sipcrack
@@ -65,6 +66,7 @@ unhide
 vnstat
 w3af
 wapiti
+weplab
 wireshark
 xprobe
 xul-ext-firecookie
