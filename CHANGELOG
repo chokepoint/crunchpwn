@@ -41,3 +41,5 @@ Pulled in nikto from non-free to satisfy debian builds
 More debian packages (vbindiff, sleuthkit, autopsy, clamav, and vinetto)
 Added lfiautopwn
 Added pytinydns
+Added social engineer toolkit (SET)
+
