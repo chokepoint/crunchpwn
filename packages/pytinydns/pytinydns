@@ -1,0 +1,29 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: net
+Priority: extra
+Homepage: http://github.com/chokepoint/pytinydns
+Standards-Version: 3.9.2
+
+Package: pytinydns
+Version: 0.1
+Maintainer: stderr <stderr@crunchpwn.org>
+# Pre-Depends: <comma-separated list of packages>
+Depends: redis-server, python (>=2.6), python-redis
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+#Readme: README
+Extra-Files: README, pytinydns.host, pytinydns.conf, redis_import.py
+Files: pytinydns.py /usr/bin/
+ pytinydns.conf /etc/
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Tiny DNS server that pulls records from redis
+ This server pulls and resolves A records from redis-server. Records 
+ can be updated live with the redis_import.py tool. Makes DNS 
+ spoofing easy for penetration testing and malware analysis.

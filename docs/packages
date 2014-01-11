@@ -19,6 +19,7 @@ masscan_1.0
 medusa_2.1.1
 ncrack_0.4ALPHA
 nikto_2.1.4
+pytinydns_0.1
 sqlmap_0.9
 sslnuke_1.0
 thc-ssl-dos_1.4

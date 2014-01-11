@@ -40,3 +40,4 @@ Pulled in nikto from non-free to satisfy debian builds
 11-Jan-14 Added more debian packages (pidgin/otr, privoxy, valgrind, and proxychains)
 More debian packages (vbindiff, sleuthkit, autopsy, clamav, and vinetto)
 Added lfiautopwn
+Added pytinydns
