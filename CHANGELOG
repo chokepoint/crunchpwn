@@ -37,9 +37,11 @@ Test slim login theme
 Added burpsuite
 Pulled in nikto from non-free to satisfy debian builds
 
-11-Jan-14 Added more debian packages (pidgin/otr, privoxy, valgrind, and proxychains)
+11-Jan-14 Added more debian packages (pidgin/otr, privoxy, valgrind, valkyrie and proxychains)
 More debian packages (vbindiff, sleuthkit, autopsy, clamav, and vinetto)
 Added lfiautopwn
 Added pytinydns
 Added social engineer toolkit (SET)
-
+More debian packages (creepy, cryptcat, dns2tcp, dnswalk,  lynis, scanssh, sslscan)
+More debian packages (fwknop-server, iodine, ipwatchd, pads, proxytunnel, ptunnel, ratproxy, redsocks, scanmem, udptunnel)
+More debian packages (tcpslice, tcptraceroute, tor-dbg, onioncat)
