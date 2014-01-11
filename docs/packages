@@ -3,6 +3,7 @@ beleth_0.1-1
 bluediving_0.9
 bluelog_1.1.2
 bully_1.0.22
+burpsuite_1.5
 dnsmap_0.30
 dnsrecon_0.8.5
 dripper_1.0-1
@@ -16,6 +17,7 @@ lans.py
 masscan_1.0
 medusa_2.1.1
 ncrack_0.4ALPHA
+nikto_2.1.4
 sqlmap_0.9
 sslnuke_1.0
 thc-ssl-dos_1.4

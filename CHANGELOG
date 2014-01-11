@@ -34,4 +34,7 @@ Added dnsrecon
 Test slim login theme
 
 10-Jan-14 Added masscan
+Added burpsuite
+Pulled in nikto from non-free to satisfy debian builds
 
+11-Jan-14 Added more debian packages (pidgin/otr, privoxy, valgrind, and proxychains)

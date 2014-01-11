@@ -42,7 +42,11 @@ p0f
 packeth
 paxctl
 pdfcrack
+pidgin
+pidgin-otr
 prads
+privoxy
+proxychains
 pyew
 python-scapy
 radare2
@@ -64,6 +68,7 @@ tor
 torchat
 tshark
 unhide
+valgrind
 vnstat
 w3af
 wapiti
