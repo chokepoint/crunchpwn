@@ -4,8 +4,10 @@ apparmor
 apparmor-profiles
 arping
 arpon
+autopsy
 bokken
 chkrootkit
+clamav
 darkstat
 denyhosts
 dsniff
@@ -54,6 +56,7 @@ reaver
 rkhunter
 screen
 sipcrack
+sleuthkit
 sniffit
 socat
 sslsniff
@@ -69,6 +72,8 @@ torchat
 tshark
 unhide
 valgrind
+vbindiff
+vinetto
 vnstat
 w3af
 wapiti

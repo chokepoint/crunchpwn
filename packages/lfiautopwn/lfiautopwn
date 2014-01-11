@@ -1,0 +1,31 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+#Source: <source package name; defaults to package name>
+Section: misc
+Priority: extra
+Homepage: http://www.blackhatlibrary.net/Lfi_autopwn.pl
+Standards-Version: 3.9.2
+
+Package: lfiautopwn
+Version: 0.1
+Maintainer: stderr <stderr@crunchpwn.org>
+# Pre-Depends: <comma-separated list of packages>
+Depends: perl, libwhisker2-perl
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+Files: lfiautopwn.pl /usr/bin/
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Automated local file inclusion exploiter
+ Automated local file inclusion exploitation script.
+ Features:
+ * Signature-free
+ * Session Splicing
+ * User-agent and log injection
+ * Arithmetic Test
