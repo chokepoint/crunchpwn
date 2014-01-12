@@ -45,3 +45,6 @@ Added social engineer toolkit (SET)
 More debian packages (creepy, cryptcat, dns2tcp, dnswalk,  lynis, scanssh, sslscan)
 More debian packages (fwknop-server, iodine, ipwatchd, pads, proxytunnel, ptunnel, ratproxy, redsocks, scanmem, udptunnel)
 More debian packages (tcpslice, tcptraceroute, tor-dbg, onioncat)
+
+12-Jan-14 Updated readme
+Added Linux_Exploit_Suggester package
