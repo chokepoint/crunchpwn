@@ -1,0 +1,32 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: net
+Priority: extra
+Homepage: http://www.blackhatlibrary.net/Kolkata
+Standards-Version: 3.9.2
+
+Package: kolkata
+Version: 0.1
+Maintainer: stderr <stderr@crunchpwn.org>
+# Pre-Depends: <comma-separated list of packages>
+Depends: perl, libyaml-perl, libwhisker2-perl
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+Files: kolkata.pl /usr/bin
+ sigs/joomla.yml /usr/share/doc/kolkata/sigs
+ sigs/mediawiki.yml /usr/share/doc/kolkata/sigs
+ sigs/wordpress.yml /usr/share/doc/kolkata/sigs
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Web application signature fingerprint
+ Web application fingerprinting engine written in Perl that 
+ combines cryptography with IDS evasion. Kolkata uses session 
+ splicing for IDS evasion and configurable checksums of static 
+ files in order to determine the version of a web application. 
