@@ -29,6 +29,7 @@ set_0.1
 sslnuke_1.0
 thc-ssl-dos_1.4
 unicornscan_0.4.7
+vanguard_0.1
 wpscan_0.9
 
 metasploit as part of crunchpwn package post install
