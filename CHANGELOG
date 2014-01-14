@@ -55,3 +55,4 @@ Added metasploit package
 Added vanguard package
 
 14-Jan-14 Added gscrape package
+Added shellcodecs. Installs to /usr/share/shellcodecs
