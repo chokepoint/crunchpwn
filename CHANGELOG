@@ -56,3 +56,6 @@ Added vanguard package
 
 14-Jan-14 Added gscrape package
 Added shellcodecs. Installs to /usr/share/shellcodecs
+Cleaned up i386 packages. 
+Nightly build pushed to repository. crunchpwn_0.1-1_all.deb
+Crunchpwn also added under packages/ on github

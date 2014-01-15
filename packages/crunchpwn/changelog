@@ -1,0 +1,7 @@
+crunchpwn (0.1-1) unstable; urgency=low
+
+  * Nightly build 14-Jan-2014
+  * Synced new packages.
+  * Works for i386/amd64 architectures
+
+ -- stderr <stderr@chokepoint.net>  Fri, 14 Jan 2014 19:52:38 -0500
