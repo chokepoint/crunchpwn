@@ -10,10 +10,10 @@ Add Key
 -------
     curl http://repo.crunchpwn.org/gnupg.key | sudo apt-key add -
 
-/etc/apt/sources.lst:
+/etc/apt/sources.list:
 ---------------------
     $ echo '## Crunchpwn
-    deb http://repo.crunchpwn.org/ purson main' >> /etc/apt/sources.lst
+    deb http://repo.crunchpwn.org/ purson main' >> /etc/apt/sources.list
 
 Update Sources
 --------------
