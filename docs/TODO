@@ -1,7 +1,10 @@
-Organize tools into categories
+Custom Themes
 
-Custom Theme
-Custom Menus
+Reorganize and complete menu.
 
-binwalk
+Complete live cd alpha release.
+ * Custom syslinux boot graphic
+ * Customize preinstalled daemons
+ * Build hardened kernels
+
 

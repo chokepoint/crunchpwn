@@ -61,3 +61,6 @@ Nightly build pushed to repository. crunchpwn_0.1-1_all.deb
 Crunchpwn also added under packages/ on github
 
 15-Jan-14 Added maltego-tungsten-community to repository
+Updated gscrape package -- fixed preinst script.
+Nightly build pushed to repository. crunchpwn_0.1-2_all.deb
+Built preliminary alpha Live CD. 
