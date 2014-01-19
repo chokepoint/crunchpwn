@@ -66,3 +66,5 @@ Nightly build pushed to repository. crunchpwn_0.1-2_all.deb
 Built preliminary alpha Live CD. 
 
 16-Jan-14 Added extra theme files and background
+
+19-Jan-14 Added cp-slim-theme package to repository for default login screen
