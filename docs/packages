@@ -14,11 +14,14 @@ exploit-db_01.07.2014
 gscrape_0.1
 halcyon_0.1
 hydra_7.6-1 (ncurses and gtk)
+i2p_0.9.9-1
+i2p-server_0.9.9-1
 iaxflood_0.1
 kismet_2013.03.1
 kismet-plugins-restricted_2013.03.1
 kolkata_0.1
 lans.py
+libjbigi-jni_0.9.9-1
 linux_exploit_suggester_0.1
 lfiautopwn_0.1
 maltego-tungsten-community
