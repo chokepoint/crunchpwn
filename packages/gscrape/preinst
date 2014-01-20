@@ -16,11 +16,7 @@ set -e
 
 case "$1" in
     install|upgrade)
-	perl -MGoogle::Search -le 'print $INC{"Google/Search.pm"}'
-	if [ $? -ne "0" ]
-	then
-		cpan -i Google::Search
-	fi
+	perl -MGoogle::Search -le 'print $INC{"Google/Search.pm"}' || (cpan -i Google::Search ; exit 0 )
 ;;
 
     abort-upgrade)

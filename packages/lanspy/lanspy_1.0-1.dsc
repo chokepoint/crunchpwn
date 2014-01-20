@@ -1,7 +1,7 @@
 Format: 3.0 (quilt)
 Source: lanspy
 Binary: lanspy
-Architecture: any
+Architecture: all
 Version: 1.0-1
 Maintainer: stderr <stderr@chokepoint.net>
 Homepage: https://github.com/DanMcInerney/LANs.py
@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 8.0.0), python2.6
 Package-List: 
  lanspy deb net extra
 Checksums-Sha1: 
- d80dbd9ce90228a186d671790014b74a5d3d5ab4 128092 lanspy_1.0.orig.tar.gz
- 06d9b4141c409e70a3166e0491bfdd5afd82bdb4 3057 lanspy_1.0-1.debian.tar.gz
+ 39a2b6514846603431e0fe8409de5d5492b4e3c8 160666 lanspy_1.0.orig.tar.gz
+ fc277ddc3d5d860b2162669786511d343bc7a5fa 3073 lanspy_1.0-1.debian.tar.gz
 Checksums-Sha256: 
- 86887db46ea4fbd91cf5c4fd5074ca0abf5abbc627c091c8bad4e4466230d44d 128092 lanspy_1.0.orig.tar.gz
- 3f469e77521a5b7eefdb456056779adcb1991337ff1444ddc1bcf99ef2218c87 3057 lanspy_1.0-1.debian.tar.gz
+ 267e93d85cb0d2d2059b67b71cdc0d126d843ed22f22650f36b12d4d0c2f6200 160666 lanspy_1.0.orig.tar.gz
+ 0cc4f517585d4d8244bea4630ba5a2c41fea4a50c8a375197cd6b93185a48fc3 3073 lanspy_1.0-1.debian.tar.gz
 Files: 
- 61612f2892a9b6ab03036313d59f3708 128092 lanspy_1.0.orig.tar.gz
- 793dbb0b4c84020229d94f4933439472 3057 lanspy_1.0-1.debian.tar.gz
+ 73268783369234456a6e842fa321e69d 160666 lanspy_1.0.orig.tar.gz
+ 401ecd419f592226e0cfa20f031a391f 3073 lanspy_1.0-1.debian.tar.gz

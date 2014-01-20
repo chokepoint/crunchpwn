@@ -70,3 +70,7 @@ Built preliminary alpha Live CD.
 19-Jan-14 Added cp-slim-theme package to repository for default login screen
 Added crunchpwn_0.1-3_all.deb nightly build
 Added i2p, i2prouter, and libjbigi-jni packages from i2p repositories
+
+20-Jan-14 Fixed modified source files
+Pushed updated pytinydns package
+Pushed updated exploit-db archive

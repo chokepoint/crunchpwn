@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List: 
  dripper deb net extra
 Checksums-Sha1: 
- 9a1dc23f0f3bf1b6635c0a67ebc476e36bbc1d54 12151 dripper_1.0.orig.tar.gz
- bb3f44edabbcf117ef19ec8eae9fba89a88e8494 1684 dripper_1.0-1.debian.tar.gz
+ 7f8beee9b2297f432d0dac7f755427b785001e02 30387 dripper_1.0.orig.tar.gz
+ 5d65088ae69b6edc743f67c2847f7d52c28930c5 1686 dripper_1.0-1.debian.tar.gz
 Checksums-Sha256: 
- f0cd86f3123bfebfacf2083472ec00d446c4b826a9788622840dfdb4ffbabb62 12151 dripper_1.0.orig.tar.gz
- 70869fe6678c506d6e20889c9f94391f97a46738064e8dccdbc37a4123f43c39 1684 dripper_1.0-1.debian.tar.gz
+ 18092d886da5e968c3634babf91df414e85a1c3e26bbac2e75391173feeea033 30387 dripper_1.0.orig.tar.gz
+ d1a7f0b44eb7d7abd377f412668529fdcfb5a570987249e26ce9f6d320967815 1686 dripper_1.0-1.debian.tar.gz
 Files: 
- 78801947c085107369d99c7c0b950045 12151 dripper_1.0.orig.tar.gz
- 1c9aaaf641bcff40b93a5c0101a1db5e 1684 dripper_1.0-1.debian.tar.gz
+ bf4b6c1d3a4b57a211c3761cb31dc0b8 30387 dripper_1.0.orig.tar.gz
+ a0ce47e4a38ab69e0599f8a65fb186d7 1686 dripper_1.0-1.debian.tar.gz
