@@ -22,3 +22,9 @@ Update Sources
 Installation
 ------------
     sudo apt-get install crunchpwn
+
+Screenshots
+-----------
+
+![boot splash](http://i.imgur.com/9FhtpWt.png "Boot Menu")
+
