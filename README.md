@@ -28,3 +28,6 @@ Screenshots
 
 ![boot splash](http://i.imgur.com/9FhtpWt.png "Boot Menu")
 
+![login screen](http://i.imgur.com/eZKO2G0.png "Login Screen")
+
+![desktop](http://i.imgur.com/jWTjSkG.png "Openbox desktop")
