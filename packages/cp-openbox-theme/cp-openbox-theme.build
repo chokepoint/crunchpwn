@@ -1,0 +1,34 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+Homepage: http://www.crunchpwn.org
+Standards-Version: 3.9.2
+
+Package: cp-openbox-theme
+Version: 0.1-1
+Maintainer: stderr <stderr@crunchpwn.org>
+# Pre-Depends: <comma-separated list of packages>
+Depends: openbox, tint2, nitrogen, cp-backgrounds
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+Files: openbox-3/bullet.xbm /usr/share/themes/crunchpwn/openbox-3/
+ openbox-3/close.xbm /usr/share/themes/crunchpwn/openbox-3/
+ openbox-3/iconify.xbm /usr/share/themes/crunchpwn/openbox-3/
+ openbox-3/max.xbm /usr/share/themes/crunchpwn/openbox-3/
+ openbox-3/themerc /usr/share/themes/crunchpwn/openbox-3/
+ openbox/menu.xml /etc/skel/.config/openbox/
+ openbox/rc.xml /etc/skel/.config/openbox/
+ openbox/autostart /etc/skel/.config/openbox/
+ tint2/tint2rc /etc/skel/.config/tint2/
+ nitrogen/bg-saved.cfg /etc/skel/.config/nitrogen/
+Description: Default openbox theme for CrunchPwn
+ Default theme includes crazymothafucka + custom tint2rc.
