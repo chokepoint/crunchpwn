@@ -1,3 +1,19 @@
+crunchpwn (0.1-5) unstable; urgency=low
+
+  * Nightly build 26-Jan-2014
+  * Added wolpertinger package
+
+ -- stderr <stderr@chokepoint.net>  Sun, 26 Jan 2014 16:26:23 -0500
+ 
+crunchpwn (0.1-4) unstable; urgency=low
+
+  * Nightly build 22-Jan-2014
+  * Added cp-backgrounds package
+  * Added cp-openbox-theme package
+  * Updated menu
+
+ -- stderr <stderr@chokepoint.net>  Wed, 22 Jan 2014 13:26:52 -0500
+
 crunchpwn (0.1-3) unstable; urgency=low
 
   * Nightly build 19-Jan-2014
