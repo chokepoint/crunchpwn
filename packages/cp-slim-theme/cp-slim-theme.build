@@ -14,7 +14,8 @@ Depends: slim
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
-# Replaces: <comma-separated list of packages>
+#Conflicts: slim, slimconf
+Replaces: slim, slimconf
 Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 # Changelog: <changelog file; defaults to a generic changelog>

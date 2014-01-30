@@ -14,21 +14,21 @@ Depends: openbox, tint2, nitrogen, cp-backgrounds
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
-# Replaces: <comma-separated list of packages>
+Replaces: cb-configs
 Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 # Changelog: <changelog file; defaults to a generic changelog>
 # Readme: <README.Debian file; defaults to a generic one>
 # Extra-Files: <comma-separated list of additional files for the doc directory>
-Files: openbox-3/bullet.xbm /usr/share/themes/crunchpwn/openbox-3/
- openbox-3/close.xbm /usr/share/themes/crunchpwn/openbox-3/
- openbox-3/iconify.xbm /usr/share/themes/crunchpwn/openbox-3/
- openbox-3/max.xbm /usr/share/themes/crunchpwn/openbox-3/
- openbox-3/themerc /usr/share/themes/crunchpwn/openbox-3/
- openbox/menu.xml /etc/skel/.config/openbox/
- openbox/rc.xml /etc/skel/.config/openbox/
- openbox/autostart /etc/skel/.config/openbox/
- tint2/tint2rc /etc/skel/.config/tint2/
- nitrogen/bg-saved.cfg /etc/skel/.config/nitrogen/
+Files: openbox-3/bullet.xbm /usr/share/themes/crunchpwn/openbox-3/bullet.xpm
+ openbox-3/close.xbm /usr/share/themes/crunchpwn/
+ openbox-3/iconify.xbm /usr/share/themes/crunchpwn/
+ openbox-3/max.xbm /usr/share/themes/crunchpwn/
+ openbox-3/themerc /usr/share/themes/crunchpwn/
+ openbox/menu.xml /etc/skel/.config/
+ openbox/rc.xml /etc/skel/.config/
+ openbox/autostart /etc/skel/.config/
+ tint2/tint2rc /etc/skel/.config/
+ nitrogen/bg-saved.cfg /etc/skel/.config/
 Description: Default openbox theme for CrunchPwn
  Default theme includes crazymothafucka + custom tint2rc.
