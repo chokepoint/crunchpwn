@@ -1,3 +1,10 @@
+crunchpwn (0.1-6) unstable; urgency=low
+
+  * Nightly build 31-Jan-2014
+  * Added wifijammer package
+
+ -- stderr <stderr@chokepoint.net>  Fri, 31 Jan 2014 11:14:54 -0500
+
 crunchpwn (0.1-5) unstable; urgency=low
 
   * Nightly build 26-Jan-2014

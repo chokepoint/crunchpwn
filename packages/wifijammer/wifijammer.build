@@ -1,0 +1,31 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: net
+Priority: extra
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+
+Package: wifijammer
+Version: 0.1-1
+Maintainer: stderr <stderr@crunchpwn.org>
+# Pre-Depends: <comma-separated list of packages>
+Depends: aircrack-ng, python, python-scapy
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+Files: wifijammer.py /usr/bin/
+ README.md /usr/share/doc/wifijammer/
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Continuously jam all wifi clients and access points within range.
+ Continuously jam all wifi clients and access points within range. 
+ The effectiveness of this script is constrained by your wireless 
+ card. Alfa cards seem to effectively jam within about a block's range 
+ with heavy access point saturation. Granularity is given in the 
+ options for more effective targeting. 

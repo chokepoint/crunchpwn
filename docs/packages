@@ -7,7 +7,7 @@ burpsuite_1.5
 cp-backgrounds_0.1-1
 cp-openbox-theme_0.1-1
 cp-slim-theme_0.1
-crunchpwn_0.1-4 (Nightly build)
+crunchpwn_0.1-6 (Nightly build)
 dnsmap_0.30
 dnsrecon_0.8.5
 dripper_1.0-1
@@ -40,6 +40,7 @@ sslnuke_1.0
 thc-ssl-dos_1.4
 unicornscan_0.4.7
 vanguard_0.1
+wifijammer_0.1
 wolpertinger_0.6
 wpscan_0.9
 
