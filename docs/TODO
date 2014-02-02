@@ -1,10 +1,10 @@
-Custom Themes
+Live Alpha Release:
+	* i2p/tor DNS fu script
+	* Complete menu (almost done)
+	* Host on linuxtracker.org
+	* Push updates to sourceforge
+	* Full distro page on distrowatch.com
 
-Reorganize and complete menu.
-
-Complete live cd alpha release.
- * Custom syslinux boot graphic
- * Customize preinstalled daemons
- * Build hardened kernels
-
-
+Install Alpha Release:
+	* Prompt users for config overwrite in /home/$user
+	* Add themes for other window managers?
