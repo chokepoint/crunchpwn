@@ -1,3 +1,21 @@
+crunchpwn (0.1-7) unstable; urgency=low
+
+  * Full Alpha build
+  * Added libyaml-libyaml-perl
+  * Added missidentify
+  * Added readpst
+  * Added reglookup
+  * Added extundelete
+  * Added foremost
+  * Added safecopy
+  * Added tcpxtract
+  * Added driftnet
+  * Added samdump2
+  * Added pyrit
+  * Updated cp-openbox-theme with new menu
+
+ -- stderr <stderr@chokepoint.net>  Fri, 31 Jan 2014 11:14:54 -0500
+
 crunchpwn (0.1-6) unstable; urgency=low
 
   * Nightly build 31-Jan-2014

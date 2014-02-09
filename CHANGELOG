@@ -93,3 +93,9 @@ Updated cp-slim-theme package
 
 31-Jan-14 Added wifijammer package
 Pushed nightly build 0.1-6 of crunchpwn.
+
+9-Feb-14 Added debian packages for full alpha release:
+libyaml-libyaml-perl, missidentify, readpst, reglookup, extundelete
+foremost, safecopy, tcpxtract, driftnet, samdump2, and pyrit
+Update crunchpwn package to match the live Alpha cd
+Updated cp-openbox-theme to include the updated menu.

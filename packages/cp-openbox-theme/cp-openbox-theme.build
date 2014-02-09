@@ -7,7 +7,7 @@ Homepage: http://www.crunchpwn.org
 Standards-Version: 3.9.2
 
 Package: cp-openbox-theme
-Version: 0.1-1
+Version: 0.1-2
 Maintainer: stderr <stderr@crunchpwn.org>
 # Pre-Depends: <comma-separated list of packages>
 Depends: openbox, tint2, nitrogen, cp-backgrounds

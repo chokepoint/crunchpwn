@@ -25,65 +25,40 @@
 		<separator/>
 		<menu id="root-menu-34214" label="#pwn">
 			<menu id="root-menu-34214-74436" label="Recon">
+				<menu id="root-menu-34214-74436-37362" label="IDS Recon">
+					<item label="pads">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo pads -h; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-74436-5553" label="Misc recon">
+					<item label="creepy">
+						<action name="Execute">
+							<command>creepy</command>
+						</action>
+					</item>
+					<item label="etherape">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo etherape ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="Linux Exploit Suggester">
+						<action name="Execute">
+							<command>terminator --command=&quot;Linux_Exploit_Suggester.pl -h; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
 				<menu id="root-menu-34214-74436-85951" label="Network Analysis">
-					<menu id="root-menu-34214-74436-85951-613938" label="Network Traffic Analysis ">
-						<item label="Wireshark">
-							<action name="Execute">
-								<command>wireshark</command>
-							</action>
-						</item>
-					</menu>
-					<menu id="root-menu-34214-74436-85951-114940" label="Network Sniffers">
-						<item label="p0f">
-							<action name="Execute">
-								<command>terminator --command=&quot;sudo p0f --help ; bash&quot;</command>
-							</action>
-						</item>
-						<item label="prads">
-							<action name="Execute">
-								<command>terminator --command=&quot;sudo prads --help; bash&quot;</command>
-							</action>
-						</item>
-						<item label="nast">
-							<action name="Execute">
-								<command>terminator --command=&quot;sudo nast --help; bash&quot;</command>
-							</action>
-						</item>
-						<item label="netsniff-ng">
-							<action name="Execute">
-								<command>terminator --command=&quot;sudo netsniff-ng --help; bash&quot;</command>
-							</action>
-						</item>
-						<item label="sniffit">
-							<action name="Execute">
-								<command>terminator --command=&quot;sudo sniffit; bash&quot;</command>
-							</action>
-						</item>
-						<item label="ssl-nuke">
-							<action name="Execute">
-								<command>terminator --command=&quot;sslnuke; bash&quot;</command>
-							</action>
-						</item>
-						<item label="tcpick">
-							<action name="Execute">
-								<command>terminator --command=&quot;tcpick --help; bash&quot;</command>
-							</action>
-						</item>
-						<item label="tshark">
-							<action name="Execute">
-								<command>terminator --command=&quot;tshark --help ; bash&quot;</command>
-							</action>
-						</item>
-						<item label="wireshark">
-							<action name="Execute">
-								<command>wireshark</command>
-							</action>
-						</item>
-					</menu>
 					<menu id="root-menu-34214-74436-85951-543931" label="Network Scanners">
-						<item label="Darkscan">
+						<item label="darkstat">
 							<action name="Execute">
 								<command>terminator --command=&quot;darkstat ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="fwknop">
+							<action name="Execute">
+								<command>terminator --command=&quot;fwknopd -h; bash&quot;</command>
 							</action>
 						</item>
 						<item label="ike-scan">
@@ -116,9 +91,123 @@
 								<command>nmapsi4</command>
 							</action>
 						</item>
+						<item label="scanssh">
+							<action name="Execute">
+								<command>terminator --command=&quot;scanssh -h; bash&quot;</command>
+							</action>
+						</item>
+						<item label="tcptraceroute">
+							<action name="Execute">
+								<command>terminator --command=&quot;tcptraceroute; bash&quot;</command>
+							</action>
+						</item>
+						<item label="unicornscan">
+							<action name="Execute">
+								<command>terminator --command=&quot;unicornscan --help ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="wolpertinger">
+							<action name="Execute">
+								<command>terminator --command=&quot;wolpertinger -h; bash&quot; </command>
+							</action>
+						</item>
 						<item label="wpscan">
 							<action name="Execute">
 								<command>terminator --command=&quot;wpscan -h ; bash&quot;</command>
+							</action>
+						</item>
+					</menu>
+					<menu id="root-menu-34214-74436-85951-114940" label="Network Sniffers">
+						<item label="dsniff">
+							<action name="Execute">
+								<command>terminator --command=&quot;dsniff --help ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="etherape">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo etherape ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="nast">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo nast --help; bash&quot;</command>
+							</action>
+						</item>
+						<item label="netsniff-ng">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo netsniff-ng --help; bash&quot;</command>
+							</action>
+						</item>
+						<item label="p0f">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo p0f --help ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="prads">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo prads --help; bash&quot;</command>
+							</action>
+						</item>
+						<item label="sniffit">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo sniffit; bash&quot;</command>
+							</action>
+						</item>
+						<item label="ssl-nuke">
+							<action name="Execute">
+								<command>terminator --command=&quot;sslnuke; bash&quot;</command>
+							</action>
+						</item>
+						<item label="tcpick">
+							<action name="Execute">
+								<command>terminator --command=&quot;tcpick --help; bash&quot;</command>
+							</action>
+						</item>
+						<item label="tshark">
+							<action name="Execute">
+								<command>terminator --command=&quot;tshark --help ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="wireshark">
+							<action name="Execute">
+								<command>wireshark</command>
+							</action>
+						</item>
+					</menu>
+					<menu id="root-menu-34214-74436-85951-613938" label="Network Traffic Analysis ">
+						<item label="ipwatchd">
+							<action name="Execute">
+								<command>terminator --command=&quot;ipwatchd --help; bash&quot;</command>
+							</action>
+						</item>
+						<item label="tcpdump">
+							<action name="Execute">
+								<command>terminator --command=&quot;tcpdump -h; bash&quot;</command>
+							</action>
+						</item>
+						<item label="tcpspy">
+							<action name="Execute">
+								<command>terminator --command=&quot;tcpspy -h; bash&quot;</command>
+							</action>
+						</item>
+						<item label="tcpslice">
+							<action name="Execute">
+								<command>terminator --command=&quot;tcpslice -h; bash&quot;</command>
+							</action>
+						</item>
+						<item label="tcptrack">
+							<action name="Execute">
+								<command>terminator --command=&quot;tcptrack ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="vnstat">
+							<action name="Execute">
+								<command>terminator --command=&quot;vnstat; bash&quot;</command>
+							</action>
+						</item>
+						<item label="Wireshark">
+							<action name="Execute">
+								<command>wireshark</command>
 							</action>
 						</item>
 					</menu>
@@ -126,6 +215,16 @@
 						<item label="arping">
 							<action name="Execute">
 								<command>terminator --command=&quot;arping ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="hping3">
+							<action name="Execute">
+								<command>terminator --command=&quot;hping3&quot;</command>
+							</action>
+						</item>
+						<item label="mtr">
+							<action name="Execute">
+								<command>terminator --command=&quot;mtr --help ; bash&quot;</command>
 							</action>
 						</item>
 					</menu>
@@ -147,30 +246,57 @@
 								<command>terminator --command=&quot;dnsrecon.py ; bash&quot;</command>
 							</action>
 						</item>
+						<item label="dnswalk">
+							<action name="Execute">
+								<command>terminator --command=&quot;dnswalk --help; bash&quot;</command>
+							</action>
+						</item>
 						<item label="dripper">
 							<action name="Execute">
 								<command>terminator --command=&quot;dripper ; bash&quot;</command>
 							</action>
 						</item>
+						<item label="pytinydns">
+							<action name="Execute">
+								<command>terminator --command=&quot;pytinydns.py -h; bash&quot;</command>
+							</action>
+						</item>
 					</menu>
+				</menu>
+				<menu id="root-menu-34214-74436-732852" label="Webapp Recon">
+					<item label="gscrape">
+						<action name="Execute">
+							<command>terminator --command=&quot;gscrape.pl -h; bash&quot;</command>
+						</action>
+					</item>
+					<item label="kolkata">
+						<action name="Execute">
+							<command>command</command>
+						</action>
+					</item>
+					<item label="ratproxy">
+						<action name="Execute">
+							<command>terminator --command=&quot;ratproxy -h; bash&quot;</command>
+						</action>
+					</item>
 				</menu>
 				<menu id="root-menu-34214-74436-38730" label="Wireless Analysis">
 					<menu id="root-menu-34214-74436-38730-86739" label="BlueTooth Analysis">
-						<item label="bluelog">
-							<action name="Execute">
-								<command>terminator --command=&quot;bluelog -h ; bash&quot;</command>
-							</action>
-						</item>
 						<item label="bluediving">
 							<action name="Execute">
 								<command>terminator --command=&quot;sudo bluedivingNG.pl ; bash&quot;</command>
 							</action>
 						</item>
+						<item label="bluelog">
+							<action name="Execute">
+								<command>terminator --command=&quot;bluelog -h ; bash&quot;</command>
+							</action>
+						</item>
 					</menu>
 					<menu id="root-menu-34214-74436-38730-91016" label="WLAN Analysis">
-						<item label="kismet">
+						<item label="aircrack-ng">
 							<action name="Execute">
-								<command>terminator --command=&quot;kismet&quot;</command>
+								<command>terminator --command=&quot;aircrack-ng; bash&quot;</command>
 							</action>
 						</item>
 						<item label="airodump-ng">
@@ -178,11 +304,21 @@
 								<command>terminator --command=&quot;airodump-ng; bash&quot;</command>
 							</action>
 						</item>
+						<item label="bully">
+							<action name="Execute">
+								<command>terminator --command=&quot;bully -h; bash&quot;</command>
+							</action>
+						</item>
+						<item label="kismet">
+							<action name="Execute">
+								<command>terminator --command=&quot;kismet&quot;</command>
+							</action>
+						</item>
 					</menu>
 				</menu>
-				<item label="etherape">
+				<item label="mac changer">
 					<action name="Execute">
-						<command>terminator --command=&quot;sudo etherape ; bash&quot;</command>
+						<command>terminator --command=&quot;macchanger --help ; bash&quot;</command>
 					</action>
 				</item>
 				<item label="Maltego">
@@ -192,19 +328,124 @@
 				</item>
 			</menu>
 			<menu id="root-menu-34214-662334" label="Forensics">
-				<menu id="root-menu-34214-662334-10717" label="Password Forensics Tools">
-					<item label="fcrackzip">
+				<menu id="root-menu-34214-662334-93353" label="Anti-Virus Forensics Tools">
+					<item label="bokken">
 						<action name="Execute">
-							<command>terminator --command=&quot;fcrackzip --help ; bash&quot;</command>
+							<command>bokken</command>
 						</action>
 					</item>
-					<item label="samdump">
+					<item label="chrootkit">
 						<action name="Execute">
-							<command>terminator --command=&quot;samdump2 ; bash&quot;</command>
+							<command>terminator --command=&quot;sudo chkrootkit --help; bash&quot;</command>
+						</action>
+					</item>
+					<item label="ClamAV">
+						<action name="Execute">
+							<command>terminator --command=&quot;clamscan -h ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="pyew">
+						<action name="Execute">
+							<command>terminator --command=&quot;cd /usr/share/pyshared/pyew ; ./pyew.py; bash&quot;</command>
+						</action>
+					</item>
+					<item label="rkhunter">
+						<action name="Execute">
+							<command>terminator --command=&quot;rkhunter; bash&quot;</command>
+						</action>
+					</item>
+					<item label="unhide">
+						<action name="Execute">
+							<command>terminator --command=&quot;unhide; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-662334-80423" label="Digital Forensics">
+					<item label="hexedit">
+						<action name="Execute">
+							<command>terminator --command=&quot;hexedit --help ; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-662334-89335" label="Forensics Analysis Tools">
+					<item label="lynis">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo lynis -h ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="missidentify">
+						<action name="Execute">
+							<command>terminator --command=&quot;missidentify -h; bash&quot;</command>
+						</action>
+					</item>
+					<item label="readpst">
+						<action name="Execute">
+							<command>terminator --command=&quot;readpst; bash&quot;</command>
+						</action>
+					</item>
+					<item label="reglookup">
+						<action name="Execute">
+							<command>terminator --command=&quot;reglookup; bash&quot;</command>
+						</action>
+					</item>
+					<item label="vbindiff">
+						<action name="Execute">
+							<command>terminator --command=&quot;vbindiff ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="vinetto">
+						<action name="Execute">
+							<command>terminator --command=&quot;vinetto -h ; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-662334-495254" label="Foresnic Carving Tools">
+					<item label="extundelete">
+						<action name="Execute">
+							<command>terminator --command=&quot;extundelete; bash&quot;</command>
+						</action>
+					</item>
+					<item label="foremost">
+						<action name="Execute">
+							<command>terminator --command=&quot;foremost -h; bash&quot;</command>
+						</action>
+					</item>
+					<item label="safecopy">
+						<action name="Execute">
+							<command>terminator --command=&quot;safecopy ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="testdisk">
+						<action name="Execute">
+							<command>terminator --command=&quot;testdisk&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-662334-92633" label="Forensics Suite">
+					<item label="Autopsy">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo autopsy&quot;</command>
+						</action>
+					</item>
+					<item label="sleuthkit">
+						<action name="Execute">
+							<command>terminator --command=&quot;echo 'Sleuthkit is a collection of tools'; echo 'If you need an interface please use Autopsy'; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-662334-942545" label="IDS">
+					<item label="pads">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo pads -h; bash&quot;</command>
 						</action>
 					</item>
 				</menu>
 				<menu id="root-menu-34214-662334-7175" label="Network Forensics">
+					<item label="arpon">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo arpon --help; bash&quot;</command>
+						</action>
+					</item>
 					<item label="Darkstat">
 						<action name="Execute">
 							<command>terminator --command=&quot;darkstat; bash&quot;</command>
@@ -231,105 +472,37 @@
 						</action>
 					</item>
 				</menu>
-				<menu id="root-menu-34214-662334-495254" label="Foresnic Carving Tools">
-					<item label="extundelete">
+				<menu id="root-menu-34214-662334-10717" label="Password Forensics Tools">
+					<item label="fcrackzip">
 						<action name="Execute">
-							<command>terminator --command=&quot;extundelete; bash&quot;</command>
+							<command>terminator --command=&quot;fcrackzip --help ; bash&quot;</command>
 						</action>
 					</item>
-					<item label="foremost">
-						<action name="Execute">
-							<command>terminator --command=&quot;foremost -h; bash&quot;</command>
-						</action>
-					</item>
-					<item label="testdisk">
-						<action name="Execute">
-							<command>terminator --command=&quot;testdisk&quot;</command>
-						</action>
-					</item>
-					<item label="safecopy">
-						<action name="Execute">
-							<command>terminator --command=&quot;safecopy ; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<menu id="root-menu-34214-662334-92633" label="Forensics Suite">
-					<item label="Autopsy">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo autopsy&quot;</command>
-						</action>
-					</item>
-					<item label="sleuthkit">
-						<action name="Execute">
-							<command>terminator --command=&quot;echo 'Sleuthkit is a collection of tools'; echo 'If you need an interface please use Autopsy'; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<menu id="root-menu-34214-662334-89335" label="Forensics Analysis Tools">
-					<item label="missidentify">
-						<action name="Execute">
-							<command>terminator --command=&quot;missidentify -h; bash&quot;</command>
-						</action>
-					</item>
-					<item label="reglookup">
-						<action name="Execute">
-							<command>terminator --command=&quot;reglookup; bash&quot;</command>
-						</action>
-					</item>
-					<item label="readpst">
-						<action name="Execute">
-							<command>terminator --command=&quot;readpst; bash&quot;</command>
-						</action>
-					</item>
-					<item label="vinetto">
-						<action name="Execute">
-							<command>terminator --command=&quot;vinetto -h ; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<menu id="root-menu-34214-662334-40427" label="PDF Forensics Tools">
 					<item label="pdfcrack">
 						<action name="Execute">
 							<command>terminator --command=&quot;pdfcrack ; bash&quot;</command>
 						</action>
 					</item>
-				</menu>
-				<menu id="root-menu-34214-662334-80423" label="Digital Forensics">
-					<item label="hexedit">
+					<item label="samdump">
 						<action name="Execute">
-							<command>terminator --command=&quot;hexedit --help ; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<menu id="root-menu-34214-662334-93353" label="Anti-Virus Forensics Tools">
-					<item label="chrootkit">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo chkrootkit --help; bash&quot;</command>
-						</action>
-					</item>
-					<item label="ClamAV">
-						<action name="Execute">
-							<command>terminator --command=&quot;clamscan -h ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="rkhunter">
-						<action name="Execute">
-							<command>terminator --command=&quot;rkhunter; bash&quot;</command>
-						</action>
-					</item>
-					<item label="unhide">
-						<action name="Execute">
-							<command>terminator --command=&quot;unhide; bash&quot;</command>
+							<command>terminator --command=&quot;samdump2 ; bash&quot;</command>
 						</action>
 					</item>
 				</menu>
 			</menu>
 			<menu id="root-menu-34214-47854" label="Reverse Engineering">
-				<item label="gdb">
-					<action name="Execute">
-						<command>terminator --command=&quot;gdb&quot;</command>
-					</action>
-				</item>
+				<menu id="root-menu-34214-47854-41410" label="Debugging">
+					<item label="gdb">
+						<action name="Execute">
+							<command>terminator --command=&quot;gdb&quot;</command>
+						</action>
+					</item>
+					<item label="scanmem">
+						<action name="Execute">
+							<command>terminator --command=&quot;scanmem -h; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
 				<item label="hexedit">
 					<action name="Execute">
 						<command>terminator --command=&quot;hexedit --help ; bash&quot;</command>
@@ -341,86 +514,170 @@
 					</action>
 				</item>
 			</menu>
-			<menu id="root-menu-34214-91131" label="Analysis">
-				<item label="Bokken">
-					<action name="Execute">
-						<command>bokken</command>
-					</action>
-				</item>
-				<item label="vbindiff">
-					<action name="Execute">
-						<command>terminator --command=&quot;vbindiff ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="pyew">
-					<action name="Execute">
-						<command>terminator --command=&quot;cd /usr/share/pyshared/pyew ; ./pyew.py; bash&quot;</command>
-					</action>
-				</item>
-				<item label="Binwalk">
-					<action name="Execute">
-						<command>terminator --command=&quot;binwalk ; bash&quot;</command>
-					</action>
-				</item>
-			</menu>
-			<menu id="root-menu-34214-695017" label="Exploit">
-				<item label="wapiti">
-					<action name="Execute">
-						<command>terminator --command=&quot;wapiti ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="zzuf">
-					<action name="Execute">
-						<command>terminator --command=&quot;zzuf --help ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="Autopwn">
-					<action name="Execute">
-						<command>terminator --command=&quot;lfiautopwn.pl ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="chkrootkit">
-					<action name="Execute">
-						<command>terminator --command=&quot;sudo chkrootkit --help; bash&quot;</command>
-					</action>
-				</item>
-				<item label="sql map">
-					<action name="Execute">
-						<command>terminator --command=&quot;sqlmap.py -h ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="rkhunter">
-					<action name="Execute">
-						<command>terminator --command=&quot;rkhunter; bash&quot;</command>
-					</action>
-				</item>
-				<item label="Social Engineering Toolkit">
-					<action name="Execute">
-						<command>terminator --command=&quot;sudo setoolkit ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="w3af">
-					<action name="Execute">
-						<command>w3af</command>
-					</action>
-				</item>
-				<item label="unicornscan">
-					<action name="Execute">
-						<command>terminator --command=&quot;unicornscan --help ; bash&quot;</command>
-					</action>
-				</item>
-				<menu id="root-menu-34214-695017-73919" label="metasploit">
-					<item label="msfconsole">
+			<menu id="root-menu-34214-695017" label="Exploitation">
+				<menu id="root-menu-34214-695017-982134" label="Network Exploitation">
+					<menu id="root-menu-34214-695017-982134-58157" label="MITM">
+						<item label="ettercap">
+							<action name="Execute">
+								<command>terminator --command=&quot;ettercap -h ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="socat">
+							<action name="Execute">
+								<command>terminator --command=&quot;socat -h; bash&quot;</command>
+							</action>
+						</item>
+						<item label="sslsniff">
+							<action name="Execute">
+								<command>terminator --command=&quot;sslsniff; bash&quot;</command>
+							</action>
+						</item>
+					</menu>
+					<menu id="root-menu-34214-695017-982134-462158" label="Metasploit Framework">
+						<item label="msfcli">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo msfcli -h ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="msfconsole">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo msfconsole ; bash&quot;</command>
+							</action>
+						</item>
+						<item label="msfupdate">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo msfupdate; bash&quot;</command>
+							</action>
+						</item>
+						<item label="start msfpro">
+							<action name="Execute">
+								<command>command</command>
+							</action>
+						</item>
+					</menu>
+					<item label="packeth">
 						<action name="Execute">
-							<command>terminator --command=&quot;sudo msfconsole ; bash&quot;</command>
+							<command>packeth</command>
 						</action>
 					</item>
-					<item label="MSFcli">
+					<item label="scapy">
 						<action name="Execute">
-							<command>terminator --command=&quot;sudo msfcli -h ; bash&quot;</command>
+							<command>terminator --command=&quot;scapy&quot;</command>
+						</action>
+					</item>
+					<item label="tcpreplay">
+						<action name="Execute">
+							<command>terminator --command=&quot;tcpreplay ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="zzuf">
+						<action name="Execute">
+							<command>terminator --command=&quot;zzuf --help ; bash&quot;</command>
 						</action>
 					</item>
 				</menu>
+				<menu id="root-menu-34214-695017-635058" label="Webapp Exploitation">
+					<item label="lfiautopwn">
+						<action name="Execute">
+							<command>terminator --command=&quot;lfiautopwn.pl ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="w3af">
+						<action name="Execute">
+							<command>w3af</command>
+						</action>
+					</item>
+					<item label="wapiti">
+						<action name="Execute">
+							<command>terminator --command=&quot;wapiti ; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-695017-791131" label="Database Exploitation">
+					<item label="sqlmap">
+						<action name="Execute">
+							<command>terminator --command=&quot;sqlmap.py -h ; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+				<menu id="root-menu-34214-695017-121543" label="Socail Engineering Exploitation">
+					<item label="socail engineering toolkit">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo setoolkit ; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+			</menu>
+			<menu id="root-menu-34214-74455" label="Stress Testing">
+				<menu id="root-menu-34214-74455-954513" label="Network Stress Testing">
+					<item label="iax flood">
+						<action name="Execute">
+							<command>terminator --command=&quot;iaxflood ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="thc ssl dos">
+						<action name="Execute">
+							<command>terminator --command=&quot;thc-ssl-dos ; bash&quot;</command>
+						</action>
+					</item>
+				</menu>
+			</menu>
+			<menu id="root-menu-34214-47170" label="connectivity / Tunneling">
+				<item label="cryptcat">
+					<action name="Execute">
+						<command>terminator --command=&quot;cryptcat -h; bash&quot;</command>
+					</action>
+				</item>
+				<item label="dns2tcpd">
+					<action name="Execute">
+						<command>terminator --command=&quot;dns2tcpd -h; bash&quot;</command>
+					</action>
+				</item>
+				<item label="dns2tcpc">
+					<action name="Execute">
+						<command>terminator --command=&quot;dns2tcpc -h; bash&quot;</command>
+					</action>
+				</item>
+				<item label="i2p router">
+					<action name="Execute">
+						<command>terminator --command=&quot;i2prouter; bash&quot;</command>
+					</action>
+				</item>
+				<item label="iodine">
+					<action name="Execute">
+						<command>terminator --command=&quot;iodine; bash&quot;</command>
+					</action>
+				</item>
+				<item label="netcat">
+					<action name="Execute">
+						<command>terminator --command=&quot;netcat -h; bash&quot;</command>
+					</action>
+				</item>
+				<item label="proxytunnel">
+					<action name="Execute">
+						<command>terminator --command=&quot;proxytunnel --help; bash&quot;</command>
+					</action>
+				</item>
+				<item label="ptunnel">
+					<action name="Execute">
+						<command>terminator --command=&quot;ptunnel -h; bash&quot;</command>
+					</action>
+				</item>
+				<item label="redsocks">
+					<action name="Execute">
+						<command>terminator --command=&quot;redsocks -h; bash&quot;</command>
+					</action>
+				</item>
+				<item label="socat">
+					<action name="Execute">
+						<command>terminator --command=&quot;socat -h; bash&quot;</command>
+					</action>
+				</item>
+				<item label="udptunnel">
+					<action name="Execute">
+						<command>terminator --command=&quot;udptunnel -h; bash&quot;</command>
+					</action>
+				</item>
 			</menu>
 			<menu id="root-menu-34214-604613" label="Cracking">
 				<item label="beleth">
@@ -428,19 +685,9 @@
 						<command>terminator --command=&quot;beleth ; bash&quot;</command>
 					</action>
 				</item>
-				<item label="sucrack">
-					<action name="Execute">
-						<command>terminator --command=&quot;sucrack; bash&quot;</command>
-					</action>
-				</item>
 				<item label="hydra">
 					<action name="Execute">
 						<command>terminator --command=&quot;hydra -h; bash&quot;</command>
-					</action>
-				</item>
-				<item label="ncrack">
-					<action name="Execute">
-						<command>terminator --command=&quot;ncrack; bash&quot;</command>
 					</action>
 				</item>
 				<item label="john the ripper">
@@ -451,6 +698,11 @@
 				<item label="medusa">
 					<action name="Execute">
 						<command>terminator --command=&quot;medusa ; bash&quot;</command>
+					</action>
+				</item>
+				<item label="ncrack">
+					<action name="Execute">
+						<command>terminator --command=&quot;ncrack; bash&quot;</command>
 					</action>
 				</item>
 				<item label="ophcrack">
@@ -478,238 +730,6 @@
 						<command>terminator --command=&quot;sucrack ; bash&quot;</command>
 					</action>
 				</item>
-			</menu>
-			<menu id="root-menu-34214-454244" label="Networking">
-				<item label="Arping">
-					<action name="Execute">
-						<command>terminator --command=&quot;arping ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="dnsmap">
-					<action name="Execute">
-						<command>terminator --command=&quot;dnsmap ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="tcpdump">
-					<action name="Execute">
-						<command>terminator --command=&quot;tcpdump -h; bash&quot;</command>
-					</action>
-				</item>
-				<item label="tcpspy">
-					<action name="Execute">
-						<command>terminator --command=&quot;tcpspy -h; bash&quot;</command>
-					</action>
-				</item>
-				<item label="tcptrack">
-					<action name="Execute">
-						<command>terminator --command=&quot;tcptrack ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="tcpreplay">
-					<action name="Execute">
-						<command>terminator --command=&quot;tcpreplay ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="Scapy console">
-					<action name="Execute">
-						<command>terminator --command=&quot;scapy&quot;</command>
-					</action>
-				</item>
-				<item label="pytinydns">
-					<action name="Execute">
-						<command>terminator --command=&quot;sudo pytinydns.py -h ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="socat">
-					<action name="Execute">
-						<command>terminator --command=&quot;socat -h; bash&quot;</command>
-					</action>
-				</item>
-				<item label="etherape">
-					<action name="Execute">
-						<command>terminator --command=&quot;sudo etherape ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="arpon">
-					<action name="Execute">
-						<command>terminator --command=&quot;sudo arpon --help; bash&quot;</command>
-					</action>
-				</item>
-				<menu id="root-menu-34214-454244-522559" label="MITM">
-					<item label="ettercap">
-						<action name="Execute">
-							<command>terminator --command=&quot;ettercap -h ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="sslsniff">
-						<action name="Execute">
-							<command>terminator --command=&quot;sslsniff; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<item label="my traceroute">
-					<action name="Execute">
-						<command>terminator --command=&quot;mtr --help ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="hping3">
-					<action name="Execute">
-						<command>terminator --command=&quot;hping3&quot;</command>
-					</action>
-				</item>
-				<item label="packeth">
-					<action name="Execute">
-						<command>packeth</command>
-					</action>
-				</item>
-				<item label="dsniff">
-					<action name="Execute">
-						<command>terminator --command=&quot;dsniff --help ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="vnstat">
-					<action name="Execute">
-						<command>terminator --command=&quot;vnstat; bash&quot;</command>
-					</action>
-				</item>
-				<item label="mac changer">
-					<action name="Execute">
-						<command>terminator --command=&quot;macchanger --help ; bash&quot;</command>
-					</action>
-				</item>
-				<item label="dripper">
-					<action name="Execute">
-						<command>terminator --command=&quot;dripper ; bash&quot;</command>
-					</action>
-				</item>
-				<menu id="root-menu-34214-454244-63942" label="Scanners">
-					<item label="Darkscan">
-						<action name="Execute">
-							<command>terminator --command=&quot;darkstat ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="masscan">
-						<action name="Execute">
-							<command>terminator --command=&quot;masscan --help ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="lanspy">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo LANs.py -h; bash&quot;</command>
-						</action>
-					</item>
-					<item label="ike-scan">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo ike-scan; bash&quot;</command>
-						</action>
-					</item>
-					<item label="wpscan">
-						<action name="Execute">
-							<command>terminator --command=&quot;wpscan -h ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="nmap">
-						<action name="Execute">
-							<command>terminator --command=&quot;nmap --help; bash&quot;</command>
-						</action>
-					</item>
-					<item label="nmapsi4">
-						<action name="Execute">
-							<command>nmapsi4</command>
-						</action>
-					</item>
-					<item label="Nikto">
-						<action name="Execute">
-							<command>terminator --command=&quot;nikto -H ; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<menu id="root-menu-34214-454244-713117" label="Sniffers">
-					<item label="prads">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo prads --help; bash&quot;</command>
-						</action>
-					</item>
-					<item label="tshark">
-						<action name="Execute">
-							<command>terminator --command=&quot;tshark --help ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="tcpick">
-						<action name="Execute">
-							<command>terminator --command=&quot;tcpick --help; bash&quot;</command>
-						</action>
-					</item>
-					<item label="Netsniff-ng">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo netsniff-ng --help; bash&quot;</command>
-						</action>
-					</item>
-					<item label="sslnuke">
-						<action name="Execute">
-							<command>terminator --command=&quot;sslnuke; bash&quot;</command>
-						</action>
-					</item>
-					<item label="p0f">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo p0f --help ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="sniffit">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo sniffit; bash&quot;</command>
-						</action>
-					</item>
-					<item label="Wireshark">
-						<action name="Execute">
-							<command>wireshark</command>
-						</action>
-					</item>
-					<item label="Nast">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo nast --help; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<menu id="root-menu-34214-454244-51523" label="Stress Testing">
-					<item label="iax flood">
-						<action name="Execute">
-							<command>terminator --command=&quot;iaxflood ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="thc ssl dos">
-						<action name="Execute">
-							<command>terminator --command=&quot;thc-ssl-dos ; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
-				<menu id="root-menu-34214-454244-814446" label="wireless">
-					<item label="Bully">
-						<action name="Execute">
-							<command>terminator --command=&quot;bully -h; bash&quot;</command>
-						</action>
-					</item>
-					<item label="bluelog">
-						<action name="Execute">
-							<command>terminator --command=&quot;bluelog -h ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="bluediving">
-						<action name="Execute">
-							<command>terminator --command=&quot;sudo bluedivingNG.pl ; bash&quot;</command>
-						</action>
-					</item>
-					<item label="kismet">
-						<action name="Execute">
-							<command>terminator --command=&quot;kismet&quot;</command>
-						</action>
-					</item>
-					<item label="aircrack-ng">
-						<action name="Execute">
-							<command>terminator --command=&quot;aircrack-ng; bash&quot;</command>
-						</action>
-					</item>
-				</menu>
 			</menu>
 		</menu>
 		<menu id="accessories" label="Accessories">
