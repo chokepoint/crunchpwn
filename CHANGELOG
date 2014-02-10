@@ -99,3 +99,6 @@ libyaml-libyaml-perl, missidentify, readpst, reglookup, extundelete
 foremost, safecopy, tcpxtract, driftnet, samdump2, and pyrit
 Update crunchpwn package to match the live Alpha cd
 Updated cp-openbox-theme to include the updated menu.
+
+10-Feb-14
+Added zarp_0.1.5-1 package to repo
