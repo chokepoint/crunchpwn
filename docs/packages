@@ -34,6 +34,7 @@ metasploit_latest
 ncrack_0.4ALPHA
 nikto_2.1.4
 pytinydns_0.1-2
+responder_0.1-1
 shellcodecs_0.1
 sqlmap_0.9
 set_0.1
