@@ -1,3 +1,12 @@
+crunchpwn (0.1-8) unstable; urgency=low
+
+  * Added uniscan
+  * Added responder
+  * Added zarp
+  * Added clusterd
+
+ -- stderr <stderr@chokepoint.net>  Tue, 11 Feb 2014 11:43:33 -0500
+ 
 crunchpwn (0.1-7) unstable; urgency=low
 
   * Full Alpha build

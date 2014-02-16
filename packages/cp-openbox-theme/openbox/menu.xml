@@ -51,7 +51,7 @@
 				</menu>
 				<menu id="root-menu-34214-74436-85951" label="Network Analysis">
 					<menu id="root-menu-34214-74436-85951-543931" label="Network Scanners">
-						<item label="darkstat">
+						<item label="Darkscan">
 							<action name="Execute">
 								<command>terminator --command=&quot;darkstat ; bash&quot;</command>
 							</action>
@@ -368,6 +368,11 @@
 					</item>
 				</menu>
 				<menu id="root-menu-34214-662334-89335" label="Forensics Analysis Tools">
+					<item label="binwalk">
+						<action name="Execute">
+							<command>terminator --command=&quot;binwalk ; bash&quot;</command>
+						</action>
+					</item>
 					<item label="lynis">
 						<action name="Execute">
 							<command>terminator --command=&quot;sudo lynis -h ; bash&quot;</command>
@@ -503,6 +508,11 @@
 						</action>
 					</item>
 				</menu>
+				<item label="binwalk">
+					<action name="Execute">
+						<command>terminator --command=&quot;binwalk ; bash&quot;</command>
+					</action>
+				</item>
 				<item label="hexedit">
 					<action name="Execute">
 						<command>terminator --command=&quot;hexedit --help ; bash&quot;</command>
@@ -560,6 +570,11 @@
 							<command>packeth</command>
 						</action>
 					</item>
+					<item label="responder">
+						<action name="Execute">
+							<command>terminator --command=&quot;responder; bash&quot;</command>
+						</action>
+					</item>
 					<item label="scapy">
 						<action name="Execute">
 							<command>terminator --command=&quot;scapy&quot;</command>
@@ -570,6 +585,11 @@
 							<command>terminator --command=&quot;tcpreplay ; bash&quot;</command>
 						</action>
 					</item>
+					<item label="zarp">
+						<action name="Execute">
+							<command>terminator --command=&quot;sudo zarp.py&quot;</command>
+						</action>
+					</item>
 					<item label="zzuf">
 						<action name="Execute">
 							<command>terminator --command=&quot;zzuf --help ; bash&quot;</command>
@@ -577,9 +597,21 @@
 					</item>
 				</menu>
 				<menu id="root-menu-34214-695017-635058" label="Webapp Exploitation">
-					<item label="lfiautopwn">
+					<menu id="root-menu-34214-695017-635058-9453" label="scanner">
+						<item label="uniscan">
+							<action name="Execute">
+								<command>terminator --command=&quot;sudo uniscan; bash&quot;</command>
+							</action>
+						</item>
+					</menu>
+					<item label="autopwn">
 						<action name="Execute">
 							<command>terminator --command=&quot;lfiautopwn.pl ; bash&quot;</command>
+						</action>
+					</item>
+					<item label="clusterd">
+						<action name="Execute">
+							<command>terminator --command=&quot;clusterd ; bash&quot;</command>
 						</action>
 					</item>
 					<item label="w3af">
@@ -693,6 +725,11 @@
 				<item label="john the ripper">
 					<action name="Execute">
 						<command>terminator --command=&quot;john ; bash&quot;</command>
+					</action>
+				</item>
+				<item label="sucrack">
+					<action name="Execute">
+						<command>terminator --command=&quot;sucrack; bash&quot;</command>
 					</action>
 				</item>
 				<item label="medusa">
